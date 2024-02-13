@@ -19,8 +19,9 @@
 const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/userController');
-const authMiddleware = require('/Users/emmet/Documents/ITESO/PROGRAMACION_DE_APLICACIONES_DE_ESCRITORIO/Tarea-1---Estructura-CRUD-b-sico/tarea2/authMiddleware.js'); // Importa el middleware
+const authMiddleware = require('../tarea2/authMiddleware.js '); // Importa el middleware
 // debería de funcionar con la siguiente ruta en authMiddleware
+// A mi me funcionó con /Users/emmet/Documents/ITESO/PROGRAMACION_DE_APLICACIONES_DE_ESCRITORIO/Tarea-1---Estructura-CRUD-b-sico/tarea2/authMiddleware.js
 // ../tarea2/authMiddleware.js 
 
 router.get('/users', authMiddleware, userController.getUsers);
