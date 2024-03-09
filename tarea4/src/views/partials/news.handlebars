@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Noticias</title>
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
+</head>
+<body>
+    <h1>Noticias</h1>
+    {{#each articles}}
+        <div class="news-item">
+            <h2>{{this.title}}</h2>
+            <p>{{this.description}}</p>
+            <a href="{{this.url}}" target="_blank">Leer más</a>
+        </div>
+    {{/each}}
+    <a href="/">Inicio</a>
+    <a href="/login">Iniciar sesión</a>
+    <a href="/about">Acerca de</a>
+</body>
+</html>
