@@ -8,9 +8,7 @@ NEWS_API_KEY=_
 MONGODB_URI=mongodb+srv://emi:1234@cluster0.ohef0a5.mongodb.net/
 
 y el .gitignore
-# Ignorar un archivo específico
 .env
 
-# Ignorar una carpeta específica
 node_modules/
 
