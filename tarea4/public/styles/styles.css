@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin-bottom: 1em;
+}
+
+input[type="text"], input[type="password"] {
+  margin-bottom: 0.5em;
+}
+
+/* Agrega estos estilos para la clase news-item */
+.news-item {
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.news-item h2 {
+  margin-top: 0;
+}
+
+.news-item a {
+  display: inline-block;
+  margin-top: 1em;
+  color: #007BFF;
+  text-decoration: none;
+}
